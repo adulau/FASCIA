@@ -7,7 +7,7 @@ in a standard format, then aggregate the information into the FASCIA database an
 
 # FASCIA format
 
-The FASCIA format is a simple JSON format to exchange information from mobile network monitoring devices (such as IMSI catchers, passive analysis tools) into
+The [FASCIA format](./doc/format.md) is a simple JSON format to exchange information from mobile network monitoring devices (such as IMSI catchers, passive analysis tools) into
 a common simple format and to be processed by FASCIA.
 
 # Where is the name coming from?
@@ -19,6 +19,10 @@ The name [FASCIA comes after the NSA program](https://en.wikipedia.org/wiki/FASC
 This always depends of your scope, objectives and legitimate interests. Such system can also be used for security measures with a noble goal, it can be used to
 demonstrate the privacy implication of using a mobile device or it can be illegally used. In any case, you are responsible to comply with the law(s), regulations
 and the license terms of the software
+
+# Requirements
+
+- Python 3
 
 # License
 
